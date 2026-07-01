@@ -1,0 +1,113 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(assets/images/banner.png);
+    height: 600px;
+    background-size: cover;
+    padding-top: 60px;
+    border-bottom: 1px solid blue;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    margin: 30px 30px 30px 30px;
+    font-size: 40px;
+    color: blue;
+}
+
+.banner .banner-content {
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner p{
+    font-size: 26px;
+    margin: 15px 0 25px;
+}
+
+.banner .banner-content button {
+    color: blue;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: solid;
+    text-transform: uppercase;
+    border-color: blue;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+#course-content {
+    text-align: center;
+    width: 860px;
+    height: 300px;
+}
+
+#course-content p {
+    font-size: 20px;
+}
+
+.module {
+    border: solid 0.5px;
+    border-color: blue;
+    margin: 25px;
+    padding: 12px 12px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 12px;
+}
+
+#transform-world{
+    height: 200px;
+    background-size: cover;
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;
+    padding: 100px;
+    border: 1px solid blue;
+}    
+
+#transform-world p{
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 3px 3px rgb(48, 21, 201);
+    text-transform: lowercase;
+    max-width: 250px;
+}
+
+h2{
+    color: blue;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+section{
+    margin: 100px auto;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+    font-size: 19px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    border-top: 1px solid;
+    border-color: blue;
+    padding: 20px;
+}
+
+footer p a {
+    color: blue;
+    text-decoration: none;
+}
